@@ -40,7 +40,7 @@ public class WriteName {
 	readName();
 }
   public static void readName() throws IOException {
-	  System.out.println("Please enter the Path");
+	  System.out.println("Please enter valid  the Path");
 	  String path=s.nextLine();
 	  fin=new FileInputStream(path);
 	  byte[]b=fin.readAllBytes();
