@@ -27,7 +27,6 @@ public class WriteName {
 	catch(Exception e) {
 		System.out.println("Enter the correct path");
 	}
-	System.out.println("Enter your name....");
         System.out.println("Please Enter...");
 	String name=s.nextLine();
 	byte[] b=name.getBytes();
