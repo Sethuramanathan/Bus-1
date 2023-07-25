@@ -19,7 +19,7 @@ public class WriteName {
   static OutputStream fout;//here UpCasting
   static InputStream fin;//here UpCasting
   public static void main(String[] args) throws IOException {
-	System.out.println("Enter the Path");
+	System.out.println("Enter the valid Path");
 	String path=s.nextLine();//enter the path
 	try {
 		fout=new FileOutputStream(path);	
